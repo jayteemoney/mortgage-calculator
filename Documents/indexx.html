@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styless.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <title>Frontend Mentor | Mortgage repayment calculator</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="wrapper">
+      <div class="form-box1">
+         <div class="heading">
+      <h3>Mortgage calculator</h3>
+      <p><a href="">clear all</a></p>
+         </div>
+         <br>
+    <form>
+    <div class="input-groups">
+    <div class="input fields">
+      <label for="MortgageAmount">Mortgage amount</label><br>
+      <i class="fa fa-eur"></i>
+      <input type="text" id="MortgageAmount">
+    </div>
+    <br>
+     <div class="input-fields">
+     <div class="flex-container">
+        <div class="mortgage-term">
+           <label for="MortgageTerm">Mortgage Term</label><br>
+            <i class="fas fa-calendar"></i>
+            <input type="numbers" id="MortgageTerm">
+          </div>
+          <div class="interest-rate">
+            <label for="InterestRate">Interest Rate</label>
+            <br>
+            <i class="fas fa-percent"></i>
+            <input type="numbers" id="InterestRate">
+          </div>
+        </div>
+      </div>
+    <div class="input fields">
+    <div class="radio">
+        <h4>Mortgage Type</h4>
+        <div class="mortgage-type"><input type="radio" name="Mortgage Type" value="Repayment"> Repayment <br></div>
+        <br>
+        <div class="mortgage-type"><input type="radio" name="Mortgage Type" value="Interest Only"> Interest Only</div>
+        </div>
+    </div>
+    <br>
+      <button data="Documents\finished.html"><i class="fas fa-calculator"></i>Calculate Repayments</button>
+      </div>
+    </form>
+  </div>
+    <div class="form-box2">
+      <img src="/images/preview.png.png" alt="">
+      <h3>Results shown here</h3>
+      <p>Complete the form and click “calculate Repayments” to see what your monthly
+        repayments will be.</p>
+    </div>
+    <!--<div class="form-box3">
+      <div class="heading2">
+        <h3>Your results</h3>
+        <p>  Your results are shown below based on the information you provided. 
+          To adjust the results, edit the form and click “calculate repayments” again.</p>
+          <div class="box">
+            <h5>your monthly repayment</h5>
+            <i class="fa fa-eur">2312.5</i>
+            <hr>
+            <h4>total you will repay over term</h4>
+            <i class="fa fa-eur">2312.5</i>
+          </div>
+      </div>
+    </div>-->
+
+ </div>
+</div>
+</body>
+</html>
